@@ -11,4 +11,7 @@ public class Cliente
     public string Email { get; set; }
     [Required(ErrorMessage = "O campo {0} é obrigatório")]
     public string Telefone { get; set; }
+
+    public List<Pedido> Pedidos { get; set; }
+    
 }

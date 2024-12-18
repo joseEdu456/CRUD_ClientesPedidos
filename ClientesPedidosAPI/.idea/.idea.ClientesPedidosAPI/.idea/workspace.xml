@@ -9,17 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe9c810-895a-4571-be39-f80a7424d04a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Controllers/ClienteController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Controllers/PedidoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Data/AplicationContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/ClienteConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/PedidoConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Cliente.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Pedido.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Migrations/20241218200204_SegundaMigracao.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Migrations/20241218200204_SegundaMigracao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientesPedidosAPI/.idea/dataSources/6b868033-c923-4271-b3e0-2b23fd7c678e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientesPedidosAPI/.idea/dataSources/6b868033-c923-4271-b3e0-2b23fd7c678e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ClientesPedidosAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ClientesPedidosAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/ClientesPedidosAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/ClientesPedidosAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Controllers/ClienteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Controllers/ClienteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/ClienteConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/ClienteConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Migrations/AplicationContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Migrations/AplicationContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Pedido.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Models/Pedido.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientesPedidosAPI/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ClientesPedidosAPI/Properties/launchSettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Controllers/ClienteController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Controllers/PedidoController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Data/AplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/ClienteConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Data/Configuration/PedidoConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Models/Cliente.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Models/Pedido.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientesPedidosAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2qMKFif2NkJYk2uCPogpHxyq6L3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,20 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ClientesPedidosAPI: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ClientesPedidosAPI: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.ClientesPedidosAPI: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.ClientesPedidosAPI: http">
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.ClientesPedidosAPI: https">
     <configuration name="ClientesPedidosAPI: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ClientesPedidosAPI/ClientesPedidosAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
@@ -96,7 +109,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734466903954</updated>
-      <workItem from="1734466905126" duration="2925000" />
+      <workItem from="1734466905126" duration="3089000" />
+      <workItem from="1734551748318" duration="2646000" />
+      <workItem from="1734555668537" duration="824000" />
     </task>
     <servers />
   </component>
@@ -104,6 +119,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
