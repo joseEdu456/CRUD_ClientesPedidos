@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RD-242.23726.100">
+    <data-source name="@localhost" uuid="6b868033-c923-4271-b3e0-2b23fd7c678e">
+      <database-info product="Microsoft SQL Server" version="16.00.1000" jdbc-version="4.2" driver-name="JetBrains JDBC Driver for SQL Server" driver-version="1.0" dbms="MSSQL" exact-version="16.0.1000" exact-driver-version="1.0">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <auth-provider>ms-sso</auth-provider>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" negative="1">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="ApiClientesPedidos">
+              <node kind="schema">
+                <name qname="@" />
+                <name qname="dbo" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
